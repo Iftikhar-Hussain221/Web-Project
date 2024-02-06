@@ -1,0 +1,1151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header section start */
+.header-section{
+    width: 100%;
+    height: 21vh;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+}
+.header-section .first-headercont{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    background-color: maroon;
+}
+/* first header */
+.first-headercont .first-header{
+   
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui;
+    align-items: center;
+    color: white;
+
+
+}
+.first-header .box-1 h1::first-letter{
+    color: orangered;
+}
+
+/* first header end */
+
+/* second header */
+.header-section .second-headercont{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1.6px solid gray;
+    background-color: white;
+
+
+}
+.header-section .second-header{
+    width: 90%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second-header .first-div{
+    width: 18%;
+    height: inherit;
+    font-size: 22px;
+    text-align: center;
+    line-height: 65px;
+    background-color: aliceblue;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-div:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.second-header .navbar-section{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-section .nav{
+    width: 90%;
+    height: inherit;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: orangered;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    padding: 17px;
+    font-size: 20px;
+    font-family: system-ui;
+
+
+}
+
+.navbar-section .btn{
+    width: 20vh;
+    height: inherit;
+
+}
+.btn button{
+    width: 15vh;
+    height: 6vh;
+    margin-top: 6%;
+    border-radius: 13px;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: orangered;
+}
+
+.list select{
+    width: 19px;
+    height: 5vh;
+    margin-top: 50%;
+    border-radius: 7px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
+/* second header end */
+
+
+
+/* slider start */
+.slider{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 15%;
+   
+
+
+}
+.slider .slider-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 88px;
+
+
+}
+.slider-img img{
+    width: 100%;
+    height: inherit;
+}
+.slider .boxx{
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 13%;
+    display: flex;
+    align-items: center;
+
+    
+
+
+}
+.boxx .slider-btn{
+    width: 10%;
+    height: 44%;
+    position: absolute;
+    top: 36%;
+
+}
+.slider-btn li{
+    list-style: none;
+}
+.slider-btn button{
+    width: 35px;
+    height: 35px;
+    border: 7px solid white;
+    border-radius: 50%;
+    margin: 7px;
+    background: transparent;
+}
+.slider-btn button:hover{
+   
+    background-color: orangered;
+    border: 8px solid gray;
+}
+
+.boxx .txt{
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    color: white;
+    font-size: 250%;
+    font-family: system-ui;
+    top: 28%;
+    left: 20%;
+}
+.txt button{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 11px;
+}
+.txt button:hover{
+    background-color: orangered;
+    transition: 1s;
+}
+
+/* slider end */
+
+
+/* about section start */
+
+.container1{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    
+    justify-content: space-around
+
+}
+.container1 .inner-container1{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between
+}
+.inner-container1 .container1-img{
+    width: 40%;
+    height: 60vh;
+    padding-left: 2px;
+}
+.container1-img img{
+    width: 100%;
+    height: inherit;
+    border-radius: 15px;
+}
+.inner-container1 .about{
+  
+    width: 58%;
+    height: 60vh;
+    padding-top: 53px;
+    font-size: 16px;
+    font-family: system-ui;
+
+
+}
+.about h5{
+    color: orangered;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+
+    
+}
+.about button{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 11px;
+}
+.about button:hover{
+    background-color: orangered;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* about end */
+
+
+/* explore section start */
+ .text{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: larger;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h4{
+    color: orangered;
+     letter-spacing: 5px;
+     font-weight: 200;
+    
+}
+
+/* container2 start */
+.container2{
+    width: 100%;
+    height: 37vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container2 .inner-container2{
+    width: 80%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-container2 .box{
+    width: 23%;
+    height: 28vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+
+
+}
+.box img{
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+}
+.box:hover img{
+    transform: scale(1.3);
+    transition: 2s;
+    border-radius: 12px;
+
+}
+
+.box .box-txt{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    line-height: 40px;
+
+
+}
+
+
+
+/* container 3 start */
+
+.container3{
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    justify-content: center;
+}
+.container3 .inner-container3{
+    width: 80%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+} 
+
+ .inner-container3 .box1{
+    width: 23%;
+    height: 28vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+
+
+}
+.box1 img{
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+
+
+}
+.box1:hover img{
+    transform: scale(1.3);
+    transition: 2s;
+
+}
+
+.box1 .box-txt1{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    font-weight: lighter;   
+     line-height: 40px;
+
+
+
+}
+
+/* explore end */
+
+
+/* courses section start */
+.course{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: larger;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.course h4{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+/* container 4 Start */
+.container4{
+    width: 100%;
+    height: 175vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container4 .inner-container4{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inner-container4 .child1-cont4{
+    width: 31%;
+    height: 75vh;
+    background: honeydew;
+    margin-bottom: 32px;
+
+   border-radius: 15px;
+
+
+}
+.child1-cont4 .child1-img{
+    width: 100%;
+    height: 42vh;
+
+}
+.child1-img img{
+    width: 100%;
+    height: inherit;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.child1-cont4 .child1-innercontainer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
+.child1-innercontainer .child1-box{
+    width: 90%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child1-box .center-txt{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.child1-box .child1-txt{
+    font-size: 15px;
+    font-weight: 600;
+    width: 80%;
+    font-family: system-ui;
+
+}
+.child1-txt a{
+    text-decoration: none;
+    color: black;
+}
+.child1-txt a:hover{
+    color: orangered;
+    text-decoration:underline;
+}
+.child1-box .bottom-txt{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: black;
+}
+
+/* courses section end */
+
+
+/* sign up section start */
+
+.signup-container{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    
+}
+.signup-container img{
+    width: 100%;
+    height: inherit;
+}
+.signup-container .signup-1stinnercontainer{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+.signup-container .signup-innercontainer{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    /* opacity: 0.9; */
+
+
+}
+
+.signup-innercontainer .signup-txt{
+    width: 55%;
+    height: inherit;
+    padding-top: 12%;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.signup-txt h3{
+    color: orangered;
+}
+.signup-innercontainer .signup-form{
+    width: 40%;
+    height: 75vh;
+    background-color: orange;
+    border-radius: 12px;
+    margin-top: 5%;
+
+
+
+}
+.signup-form  .head{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    color: darkblue;
+    text-align: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding-top: 5%;
+}
+.signup-form .body{
+    width: 100%;
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+}
+.body .body-inside-cont{
+ width: 80%;
+ height: 62vh;
+ display: flex;
+ flex-direction: column;
+
+}
+.body-inside-cont input[type="text"]{
+    width: 100%;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+.body-inside-cont input[type="text"]:focus{
+  border: none;
+}
+.body-inside-cont input[type="email"]{
+    width: 100%;
+    height: 8vh;
+    border-radius: 12px;
+    border: 1px solid yellowgreen;
+    margin-top: 35px;
+    padding-left: 5px;
+
+}
+.body-inside-cont select{
+    width: 100%;
+    height: 8vh;
+    border-radius: 12px;
+    border: 1px solid yellowgreen;
+    margin-top: 35px;
+    padding-left: 5px;
+
+
+}
+.body-inside-cont button{
+    width: 100%;
+    height: 8vh;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 21px;
+    font-weight: bold;
+
+
+}
+.body-inside-cont button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transition: 0.5s;
+    border: lightblue;
+
+}
+
+/* sign up section end */
+
+
+/* teacher section start */
+
+.tcontainer-head{
+    width: 100%;
+    height: 20vh;
+    margin-top: 10%;
+    text-align: center;
+    font-size: larger;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Teacher container */
+.tcontainer-head h4{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.tcontainer-body{
+ width: 100%;
+ height: 75vh;
+ display: flex;
+ justify-content: center;
+}
+
+
+
+.tcontainer-body .tinside-container-body{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.tinside-container-body .tbody{
+    width: 23%;
+    height: 60vh;
+    background: honeydew;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.tbody .tbody-img{
+    width: 100%;
+    height: 42vh;
+    overflow: hidden;
+
+}
+.tbody-img img{
+    width: 100%;
+    height: inherit;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.tbody-img img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+.tbody .name{
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* teacher section end */
+
+
+/* blog section start */
+.blog-container-head{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: larger;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog-container-head h4{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.blog-container-body{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.blog-container-body .blog-innercontainer{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-innercontainer .blog-body{
+    width: 32%;
+    height: 62vh;
+    position: relative;
+    border-radius: 12px;
+}
+.blog-body .blog-img{
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+    overflow: hidden;
+  
+
+}
+.blog-img img{
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+}
+.blog-img:hover img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.blog-body .blog-body1{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 12px;
+
+}
+.blog-body1 .blog-txt{
+    color: white;
+    width: 80%;
+    height: 18vh;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.blog-txt h5{
+    color: orangered;
+}
+
+/* blog section end */
+
+/* footer section start */
+
+.footer-section{
+    width: 100%;
+    height: 70vh;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.footer-section .footer-inner-container{
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-inner-container .footer-div1{
+    width: 25%;
+    height: 40vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+
+}
+.footer-div1 h3{
+color: orangered;
+letter-spacing: 5px;
+font-weight: 200;
+
+}
+.footer-div1 .divv{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.divv .div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    
+}
+.div:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.footer-inner-container .footer-div2{
+    width: 25%;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.footer-div2 h3{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+.footer-div2 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-div2 a:hover{
+    text-decoration: underline;
+}
+.footer-div2 li{
+    list-style: none;
+}
+
+.footer-inner-container .footer-div3{
+    width: 40%;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 20px;
+}
+.footer-div3 h3{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.footer-div3 .input-box{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+
+}
+.input-box .input{
+    width: 65%;
+    height: 60px;
+    border-radius: 12px;
+
+}
+.input input[type="gmail"]{
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+    border: 1px;
+}
+.footer-div3 .btn1{
+    width: 140px;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px;
+
+}
+.btn1 button{
+    width: 140px;
+    height: inherit;
+    background-color: orange;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.btn1 button:hover{
+    background-color: orangered;
+    transition: 0.4s;
+}
+
+.footer-inner-container .footer-div4{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-top: 2%;
+    border-top: 1px solid black;
+}
+.footer-div4 .left{
+    width: 60%;
+    height: 5vh;
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    
+}
+.left #n::first-letter{
+    color: orangered;
+}
+.left #nn::first-letter{
+    color: orangered;
+}
+.left li{
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+.footer-div4 .right{
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    
+    justify-content:space-between;
+    color: white;
+}
+ 
+.right li{
+    list-style: none;
+}
+
+
+/* Home Page Style End */
+
+
+/* About,teacher,blog,course Pages Style Start */
+
+.slider-about{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 33vh;
+   
+
+
+}
+.slider-about .slider-about-img{
+    width: 50%;
+    height: 51vh;
+    position: relative;
+    padding-top: 125px;
+
+
+}
+.slider-about-img img{
+    width: 75%;
+    height: inherit;
+    border-bottom-left-radius: 75px;
+}
+.slider-about .circle{
+    width: 300px;
+    height: 44vh;
+    background: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 33px;
+    left: -152px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.slider-about .box-about{
+    width: 66%;
+    height: 51vh;
+    background: radial-gradient(orange, #390e87);
+    position: absolute;
+    top: 124px;
+    left: 34%;
+    border-bottom-right-radius: 75px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box-about .txt-about{
+    width: 75%;
+    height: 87%;
+    position: absolute;
+    color: darkgreen;
+    font-size: 140%;
+    font-family: system-ui;
+    top: 8%;
+    left: 12%;
+    letter-spacing: 7px;
+}
+.txt-about h2::first-letter{
+    color: orangered;
+}
+.txt-about #logo{
+    width: 100%;
+    height: inherit;
+    margin-top: 9px;
+
+}
+
+
+
+/* Page Style End */
+
+
+/* Contact page style start*/
+
+.contact-head{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: larger;
+    line-height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-head h4{
+    color: orangered;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+}
+
+.contact-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.contact-container .contact-inner-container{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: mediumslateblue;
+    border-radius: 8px;
+    align-items: center;
+}
+.contact-inner-container .forms{
+    width: 78%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forms input[type="text"]{
+    width: 100%;
+    height: 8vh;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: none;
+
+}
+.forms input[type="email"]{
+    width: 100%;
+    height: 8vh;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.forms textarea{
+    width: 96%;
+    height: 8vh;
+    padding:20px;
+    border-radius: 8px;
+    border: none;
+
+    
+}
+.forms button{
+    width: 180px;
+    height: 6vh;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: ui-monospace;
+    background-color: orange;
+    border: 1px;
+    color: white;
+}
+.forms button:hover{
+    background-color: orangered;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+

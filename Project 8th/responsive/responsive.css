@@ -1,0 +1,1181 @@
+
+
+@media screen and (max-width: 1400px) {
+/* courses section */
+    .container4 {
+        width: 100%;
+        height: 140vh;
+    }
+
+    .inner-container4 .child1-cont4 {
+        width: 32%;
+        height: 60vh;
+        margin-bottom: 18px;
+    }
+    .child1-cont4 .child1-img {
+        width: 100%;
+        height: 32vh;
+    }
+    .child1-cont4 .child1-innercontainer {
+        width: 100%;
+        height: 26vh;
+    }
+    /* signup section start */
+
+    .signup-container {
+        width: 100%;
+        height: 80vh;
+    }
+    .signup-innercontainer .signup-form {
+        width: 45%;
+        height: 62vh;
+    }
+    .body .body-inside-cont {
+        width: 80%;
+        height: 48vh;
+    }
+    .body-inside-cont input[type="text"] {
+        width: 100%;
+        height: 6vh;
+        margin-top: 35px;
+    }
+
+    
+    .body-inside-cont input[type="email"] {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+    .body-inside-cont select {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+    .body-inside-cont button {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+
+
+    /* teacher section start  */
+
+    .tcontainer-body {
+        width: 100%;
+        height: 64vh;
+    }
+    .tinside-container-body .tbody {
+        width: 24%;
+        height: 50vh;
+    }
+    .tbody .tbody-img {
+        width: 100%;
+        height: 35vh;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .new-header-section{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+/* Login Page */
+
+.loginMainCon {
+    width: 100%;
+    height: 82vh;
+    padding-top: 13%;
+}
+.loginMainCon .loginContainer {
+    width: 250px;
+    height: 386px;
+    margin-left: 30%;
+    padding: 3%;
+}
+.loginContainer #h3 {
+    text-align: center;
+    font-size: 33px;
+    color: white;
+}
+.loginContainer #h4 {
+    font-size: 18px;
+}
+.loginContainer #uname, #pass, #confirmPass {
+    width: 235px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 8px;
+}
+.loginContainer #pass-div {
+    width: 235px;
+    height: 25px;
+}
+
+.loginContainer #hide {
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    border-radius: 40px;
+}
+#hide img{
+ border-radius: 40px;
+}
+.loginContainer #confirm-pass {
+    width: 235px;
+    height: 25px;
+}
+
+#confirm-pass #hide1 {
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    border-radius: 40px;
+
+}
+#hide1 img{
+    border-radius: 40px;
+
+}
+.loginContainer #error {
+    width: 235px;
+    height: 25px;
+    margin-top: 8%;
+    font-size: 15px;
+}
+.loginContainer #loginBtn {
+    width: 245px;
+    height: 30px;
+    /* margin-left: 10%; */
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+
+/* login page end */
+
+
+
+    /* head */
+    .header-section{
+        display: none;
+    }
+
+/* new header section start */
+
+   .new-header-section{
+    width: 100%;
+    height: 9.5vh;
+    z-index: 1;
+    background: maroon;
+    position: fixed;
+   }
+   /* .new-header-section .box1{
+    width: 20%;
+    height: 5vh;
+    padding: 17px;
+    color: lightgray;
+
+   }
+   .new-header-section .box2{
+    width: 8%;
+    height: 10vh;
+   } */
+ 
+  
+   .new-header-section img{
+    width: 35px;
+    height: 28px;
+    position: relative;
+    z-index: 1;
+    padding-top: 19px;
+    padding-left: 9px;
+   }
+   .new-header-section #H-Logo{
+    color: white;
+    position: absolute;
+    left: 79%;
+    top: 33%;
+    font-family: sans-serif;
+   }
+   #H-Logo::first-letter{
+    color: orange;
+   }
+
+   .new-header-section input[type="checkbox"]{
+    display: none;
+   }
+   .new-header-section .nav{
+    width: 29%;
+    height: 65vh;
+    margin-top: 6px;
+line-height: 1.4;
+    background: white;
+    left: -100%;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+   .new-header-section .nav a{
+    color: black;
+   
+
+   }
+   /* .nav .exit{
+    width: 54px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+    left: 94%;
+   }
+   .nav .exit button{
+    width: 100%;
+    height: inherit;
+    background-color: white;
+   } */
+   .nav a:hover{
+    color: red;
+   }
+   .nav ul li {
+    list-style: none;
+    float: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+   }
+   .nav ul li img{
+    width: 25px;
+    height: 25px;
+   }
+ 
+
+
+
+
+   input[type="checkbox"]:checked ~ .nav{
+    left: 0%;
+    transition: 1s;
+    
+    }
+
+    /* new header end */
+
+
+
+    /* new header-section for other pages */
+
+    .slider-about {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 20vh;
+    }
+    .slider-about .slider-about-img {
+        width: 60%;
+        height: 40vh;
+        position: relative;
+        padding-top: 50px;
+    }
+    .slider-about .box-about {
+        width: 55%;
+        height: 40vh;
+        background: radial-gradient(orange, #390e87);
+        position: absolute;
+        top: 50px;
+        left: 45%;
+        border-bottom-right-radius: 75px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .slider-about .circle {
+        width: 222px;
+        height: 32vh;
+        background: white;
+    opacity: 0.9;
+        position: absolute;
+        top: 33px;
+    left: -118px;
+    border-radius: 50%;
+    border: 2px solid white;
+    }
+    .box-about .txt-about {
+        font-size: 100%;
+    }
+
+
+    /* header end */
+
+    
+    .slider {
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 20%;
+        position: relative;
+    }
+    .slider .slider-img {
+        width: 100%;
+        height: 100vh;
+        padding-top: 0px;
+    }
+    .slider .boxx {
+        position: absolute;
+               top: 0%;
+           }
+
+           .boxx .slider-btn {
+            width: 10%;
+            height: 44%;
+            position: absolute;
+            top: 42%;
+           }
+
+
+
+    .boxx .txt {
+        width: 74%;
+        font-size: 220%;
+        top: 32%;
+
+    }
+
+
+    /* about */
+
+    .container1 {
+        width: 100%;
+        height: 125vh;
+    }
+    .container1 .inner-container1 {
+        width: 80%;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .inner-container1 .container1-img {
+        width: 100%;
+        height: 65vh;
+        padding-left: 2px;
+    }
+    .inner-container1 .about {
+        width: 100%;
+        height: 60vh;
+        padding-top: 53px;
+        font-size: 17px;
+        font-family: system-ui;
+    }
+
+    /* about end */
+
+
+    /* explore section res start */
+
+    .container2 .inner-container2 {
+        width: 80%;
+        height: 66vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .inner-container2 .box {
+        width: 47%;
+        height: 28vh;
+        position: relative;
+    }
+
+
+    .container3 {
+        width: 100%;
+        height: 75vh;
+    }
+    .container3 .inner-container3 {
+        width: 80%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .inner-container3 .box1 {
+        width: 47%;
+        height: 28vh;
+    }
+
+    /* explore section end */
+
+
+    /* courses section start */
+
+
+    .container4 {
+        width: 100%;
+        height: 200vh;
+    }
+    .inner-container4 .child1-cont4 {
+        width: 49%;
+        height: 60vh;
+        margin-bottom: 25px;
+
+    }
+
+    /* courses end */
+
+
+    /* signup section resp start */
+    .signup-container {
+        width: 100%;
+        height: 164vh;
+    }
+    .signup-container .signup-innercontainer {
+        flex-wrap: wrap;
+    }
+    .signup-innercontainer .signup-txt {
+        width: 100%;
+        height: 37vh;
+
+    }
+    .signup-innercontainer .signup-form {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .body-inside-cont input[type="text"] {
+        width: 100%;
+        height: 9vh;
+        margin-top: 50px;
+    }
+
+    
+    .body-inside-cont input[type="email"] {
+        width: 100%;
+        height: 9vh;
+        margin-top: 35px;
+    }
+    .body-inside-cont select {
+        width: 100%;
+        height: 9vh;
+        margin-top: 35px;
+    }
+    .body-inside-cont button {
+        width: 100%;
+        height: 9vh;
+        margin-top: 35px;
+    }
+    /* end */
+
+
+
+    /* teacher section start */
+
+    .tcontainer-body {
+        width: 100%;
+        height: 128vh;
+    }
+    .tcontainer-body .tinside-container-body {
+        flex-wrap: wrap;
+    }
+    .tinside-container-body .tbody {
+        width: 47%;
+        height: 58vh;
+
+    }
+    .tbody .tbody-img {
+        width: 100%;
+        height: 38vh;
+    }
+
+/* end */
+
+/* blog section start */
+    .blog-container-body {
+        width: 100%;
+        height: 312vh;
+    }
+    .blog-container-body .blog-innercontainer {
+        width: 80%;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .blog-innercontainer .blog-body {
+        width: 100%;
+        height: 100vh;
+    }
+    /* blog end */
+
+    
+/* footer section resp start */
+
+    .footer-section {
+        width: 100%;
+        height: 100vh;
+        padding-top: 25px;
+        align-items: flex-start;
+
+    }
+    .footer-inner-container .footer-div1 {
+        width: 45%;
+    }
+    .footer-inner-container .footer-div2 {
+        width: 34%;
+    }
+    .footer-inner-container .footer-div3 {
+        width: 100%;
+        height: 40vh;
+    }
+    .footer-div3 .input-box {
+        width: 100%;
+        height: 15vh;
+    }
+    .input-box .input {
+        width: 50%;
+        height: 60px;
+        border-radius: 12px;
+
+    }
+    .footer-inner-container .footer-div4 {
+        width: 100%;
+        height: 10vh;
+        flex-wrap: wrap;
+
+    }
+    .footer-div4 .left {
+        width: 100%;
+        height: 7vh;
+        color: white;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+    }
+    .footer-div4 .right {
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
+
+
+    .contact-container .contact-inner-container {
+        width: 85%;
+    }
+    .contact-inner-container .forms {
+        width: 85%;
+    }
+    
+    
+}
+
+
+/* 750 max width */
+
+@media screen and (max-width: 750px) {
+
+
+    /* slider section */
+    .slider-about .slider-about-img {
+        width: 75%;
+        height: 40vh;
+    }
+    .slider-about-img img {
+        width: 75%;
+        height: inherit;
+        border-bottom-left-radius: 40px;
+    }
+
+    .slider-about .box-about {
+        width: 54%;
+        height: 40vh;
+        background: radial-gradient(orange, #390e87);
+        position: absolute;
+        top: 50px;
+        left: 46%;
+        border-bottom-right-radius: 40px;
+
+    }
+    .slider-about .circle {
+    width: 190px;
+    height: 29vh;
+    background: white;
+    opacity: 0.9;
+        position: absolute;
+    top: 43px;
+    left: -98px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+    }
+    
+    /* end */
+
+    .new-header-section .box2 {
+        width: 12%;
+    }
+
+    .new-header-section #H-Logo {
+        color: white;
+        position: absolute;
+        left: 75%;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 579vh;
+    }
+    .inner-container4 .child1-cont4 {
+        width: 100%;
+        height: 90vh;
+    }
+    .child1-cont4 .child1-innercontainer {
+        width: 100%;
+        height: 31vh;
+    }
+    .child1-cont4 .child1-img {
+        width: 100%;
+        height: 57vh;
+    }
+
+    .blog-container-body {
+        width: 100%;
+        height: 205vh;
+    }
+    .blog-container-body .blog-innercontainer {
+        width: 80%;
+        height: 206vh;
+    }
+    .blog-innercontainer .blog-body {
+        width: 100%;
+        height: 65vh;
+    }
+
+
+
+
+   
+
+
+
+    
+}
+
+
+
+/* 600 max width */
+
+@media screen and (max-width:600px) {
+
+    .new-header-section #H-Logo {
+        left: 70%;
+    }
+
+    .new-header-section .nav {
+        width: 50%;
+        height: 75vh;
+    }
+
+    .slider {
+        width: 100%;
+        height: 70vh;
+        margin-bottom: 20%;
+    }
+    .slider .slider-img {
+        width: 100%;
+        height: 70vh;
+    }
+    .slider .boxx {
+        top: 0%;
+    }
+    .slider-btn button {
+        width: 30px;
+        height: 30px
+    }
+    .boxx .txt {
+        width: 74%;
+        font-size: 150%;
+        padding-top: 30px
+    }
+    .container2 {
+        width: 100%;
+        height: 160vh;
+    }
+    .container2 .inner-container2 {
+        width: 80%;
+        height: 157vh;
+    }
+    .inner-container2 .box {
+        width: 100%;
+        height: 36vh;
+    }
+    .container3 {
+        width: 100%;
+        height: 171vh;
+    }
+    .container3 .inner-container3 {
+        width: 80%;
+        height: 165vh;
+    }
+    .inner-container3 .box1 {
+        width: 100%;
+        height: 36vh;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 486vh;
+    }
+    .inner-container4 .child1-cont4 {
+        width: 100%;
+        height: 75vh;
+    }
+    .child1-cont4 .child1-img {
+        width: 100%;
+        height: 42vh;
+    }
+
+
+
+    .tcontainer-body {
+        width: 100%;
+        height: 290vh;
+    }
+    .tinside-container-body .tbody {
+        width: 100%;
+        height: 69vh;
+    }
+    .tbody .tbody-img {
+        width: 100%;
+        height: 50vh;
+    }
+
+
+    
+}
+
+
+
+/* 500 width */
+
+@media screen and (max-width:500px) {
+
+
+
+
+    .new-header-section .box1 {
+        width: 20%;
+        height: 5vh;
+        padding: 24px;
+    }
+    .new-header-section #H-Logo {
+        left: 64%;
+    }
+
+
+    .box1 h1{
+        font-size: 20px;
+    }
+    .new-header-section .box2 {
+        width: 18%;
+    }
+
+    .box2 label img {
+        width: 40px;
+        height: 30px;
+        padding-top: 23px;
+    }
+
+    .slider {
+        width: 100%;
+        height: 53vh;
+    }
+    .slider .slider-img {
+        width: 100%;
+        height: 53vh;
+    }
+    .slider-btn button {
+        width: 25px;
+        height: 25px
+    }
+
+    .boxx .txt {
+        width: 74%;
+        font-size: 100%;
+        padding-top: 51px;
+    }
+    .txt button {
+        width: 91px;
+        height: 26px;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+    } 
+
+
+    /* new slider section  */
+    .slider-about .slider-about-img {
+        width: 85%;
+        height: 40vh;
+        padding-top: 40px;
+    }.slider-about .box-about {
+        width: 37%;
+        height: 40vh;
+        background: radial-gradient(orange, #390e87);
+        position: absolute;
+        top: 39px;
+        left: 63%;
+    }
+    .slider-about .circle {
+        width: 170px;
+        height: 26vh;
+
+        background: white;
+        opacity: 0.9;
+        position: absolute;
+        top: 58px;
+        left: -93px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+ 
+    .container1 {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .inner-container1 .container1-img {
+        width: 100%;
+        height: 40vh;
+    }
+
+   
+    .text {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+        font-size: 13px;
+    }
+    .text h4 {
+        color: orangered;
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .course {
+       
+        font-size: 13px;
+    }
+    .course h4 {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+
+
+    .signup-container {
+        width: 100%;
+        height: 150vh;
+    }
+    .signup-innercontainer .signup-txt {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .signup-innercontainer .signup-form {
+        width: 100%;
+        height: 60vh;
+    }
+    .body-inside-cont input[type="text"] {
+        width: 100%;
+        height: 6vh;
+        margin-top: 35px;
+    }
+
+    
+    .body-inside-cont input[type="email"] {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+    .body-inside-cont select {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+    .body-inside-cont button {
+        width: 100%;
+        height: 6vh;
+        margin-top: 25px;
+    }
+
+    .tcontainer-head {
+       
+        font-size: 13px;
+    }
+    .tcontainer-head h4 {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+
+
+    /* blog */
+
+    .blog-container-body {
+        width: 100%;
+        height: 152vh;
+    }
+    .blog-container-body .blog-innercontainer {
+        width: 80%;
+        height: 150vh;
+    }
+    .blog-innercontainer .blog-body {
+        width: 100%;
+        height: 48vh;
+    }
+
+
+    .blog-container-head {
+       
+        font-size: 13px;
+    }
+    .blog-container-head h4 {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+
+    .footer-section {
+        width: 100%;
+        height: 143vh;
+    }
+    .footer-inner-container .footer-div1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-inner-container .footer-div2 {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-inner-container .footer-div3 {
+        width: 100%;
+        height: 35vh;
+        text-align: center;
+    }
+   
+    .footer-div3 .input-box {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-box .input {
+        width: 43%;
+        height: 40px;
+    }
+    .input input[type="gmail"] {
+        width: 100%;
+        height: inherit;
+    }
+    .footer-div3 .btn1 {
+        width: 100px;
+        height: 40px;
+    }
+    .btn1 button {
+        width: 100%;
+        height: inherit;
+    }
+
+    .footer-div4 .left {
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+    }
+    .left li {
+        list-style: none;
+        font-size: 15px;
+        letter-spacing: 6px;
+    }
+
+    .footer-div4 .right {
+        align-items: center;
+        justify-content: space-evenly;
+        height: 13vh;
+
+    }
+
+    
+    
+}
+/* width 400px */
+@media screen and (max-width:400px) {
+    .new-header-section #H-Logo {
+        left: 62%;
+    font-size: 22px;
+    top: 36%;
+    }
+    
+}
+
+.new-header-section .nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+}
+.new-header-section .nav ul li img {
+    width: 14px;
+    height: 14px;
+}
+
+.contact-head {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+/* width 300 */
+
+@media screen and (max-width:300px) {
+
+    .new-header-section #H-Logo {
+        left: 48%;
+    font-size: 22px;
+    top: 36%;
+    }
+
+/* about section */
+
+.container1 {
+    width: 100%;
+    height: 120vh;
+}
+.inner-container1 .about {
+    width: 100%;
+    height: 80vh;
+}
+
+
+/* explore section*/
+
+.container2 {
+    width: 100%;
+    height: 132vh;
+}
+.container2 .inner-container2 {
+    width: 80%;
+    height: 131vh;
+}
+.inner-container2 .box {
+    width: 100%;
+    height: 30vh;
+}
+.container3 {
+    width: 100%;
+    height: 132vh;
+}
+.container3 .inner-container3 {
+    width: 80%;
+    height: 131vh;
+}
+.inner-container3 .box1 {
+    width: 100%;
+    height: 30vh;
+}
+
+/* courses section */
+
+.container4 {
+    width: 100%;
+    height: 339vh;
+}
+.inner-container4 .child1-cont4 {
+    width: 100%;
+    height: 52vh;
+}
+.child1-cont4 .child1-img {
+    width: 100%;
+    height: 27vh;
+}
+
+
+
+    /* teacher section */
+    .tcontainer-body {
+        width: 100%;
+        height: 216vh;
+    }
+    .tinside-container-body .tbody {
+        width: 100%;
+        height: 51vh;
+    }
+    .tbody .tbody-img {
+        width: 100%;
+        height: 34vh;
+    }
+
+    /* signup section */
+    .signup-container {
+        width: 100%;
+        height: 130vh;
+    }
+    .signup-innercontainer .signup-txt {
+        width: 100%;
+        height: 75vh;
+    }
+    .signup-innercontainer .signup-form {
+        width: 100%;
+        height: 40vh;
+    }
+    .signup-form .head {
+        width: 100%;
+        height: 7vh;
+    }
+    .body .body-inside-cont {
+        width: 80%;
+        height: 30vh;
+    }
+    .body-inside-cont input[type="text"] {
+        width: 100%;
+        height: 4vh;
+        margin-top: 25px;
+    }
+    .body-inside-cont input[type="email"] {
+        width: 100%;
+        height: 4vh;
+        margin-top: 15px;
+    }
+    .body-inside-cont select {
+        width: 100%;
+        height: 4vh;
+        margin-top: 15px;
+    }
+    .body-inside-cont button {
+        width: 100%;
+        height: 4vh;
+        margin-top: 15px;
+    }
+
+}
+    
